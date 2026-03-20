@@ -1,0 +1,28 @@
+# Build outputs
+bin/
+obj/
+*.exe
+*.dll
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Node or package manager (if any)
+node_modules/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
