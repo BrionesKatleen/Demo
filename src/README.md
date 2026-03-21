@@ -4,7 +4,7 @@ Stretch
 -	/assets       → images, icons, UI files
 -	/docs         → documentation
 -	/src
-  - DBConnection.cs → database connection
+  -	main.cs 
   -	main.cs → main program
   -	/models → data classes (e.g., TaskModel.cs)
   -	/repositories → database operations (e.g., TaskRepository.cs)
