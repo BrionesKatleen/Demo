@@ -1,23 +1,27 @@
-# GIT RULES
-## 1. Branching Rules
-- Main Branch (main) is always stable - only tested code goes here.
-- Feature Branch
--- Name format: feature/<feature-name>
-
-## 2. Commit Rules
-- Always write clear, descriptive commit titles.
--- Format: <type>: <short description(minimum of 4 words>
--- Example: feature: add login button functionality
-
-## 3. Pull Request / Merge Rules
-- PR must be REVIEWED by atleast 2 teammates or the techlead before merging.
-- Pass any test
-### Avoid pushing directly to main. Always use feature branches → PR → merge
-
-## 4. Code Style / Formatting
-- Follow standard naming conventions
-- Avoid committing compiled file, .vs, bin/, obj/ add them to .gitignore
-
-## 5. File Changes / Testing
-- Always pull the lastest changes before starting work.
-- Test your code locally before pushing or making a PR. 
+# Git Rules (Simple Version)
+## 1. Branches
+- Main branch: Always stable. Only tested and working code goes here.
+- Dev branch: Used to combine new features before they go to main.
+- Feature branches: Each member works on their own task here.
+- Naming: <type>/<module>-<short-description>
+  - Example: feature/task-add-priority
+## 2. Branching Rules
+- Always start a new feature branch from dev.
+- Never push code directly to main.
+- Merge to dev using a Pull Request (PR) only.
+## 3. Commits
+- Format: [Module] short description
+- Example: [ReadingLog] Fix status update bug
+- Commit often, small changes are better.
+- Try to make one PR per feature if possible.
+## 4. Pull Requests (PR)
+- Title: [Module] short description
+- Add a short explanation of what changed.
+- PR must be reviewed by the tech lead or 2 teammates before merging.
+- Fix any conflicts before merging.
+## 5. Code Style
+- Follow proper naming rules for classes, variables, and methods.
+- Don’t push compiled files or folders like .vs, bin/, obj/. Add them to .gitignore.
+## 6. Working with Code
+- Always pull the latest version before you start working.
+- Test your code locally before pushing or making a PR.
