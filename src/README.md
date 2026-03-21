@@ -14,5 +14,5 @@ Stretch
   - DBConnection.cs → database connection
 - README.md → project overview
 
-## READ AND FOLLOW THE NAMING CONVERSIONS (view in guideline.pdf).
+## READ AND FOLLOW THE NAMING CONVERSIONS (view in System Modules & Guidelines.pdf).
 
